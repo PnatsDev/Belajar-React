@@ -1,0 +1,55 @@
+export default function getAllProducts() {
+  return [
+    {
+      id: 'LV-LP0313-PUNISEX-001',
+      slug: 'afternoon-swim-unisex',
+      name: 'Afternoon Swim',
+      category: 'Unisex Parfume',
+      price: 5_700_000,
+      stock: 100,
+      imageUrl: '/assets/images/louis-vuitton-afternoon-swim-LP0313.jpg',
+      description: `A plunge into an ocean of sensations. Feeling all the energy of the waves washing over the skin on a hot summer’s day. Master Perfumer Jacques Cavallier Belletrud pays homage to the citruses he particularly loves. He ennobles a rare Sicilian orange lush with juice, like an explosion of vitamins. A sensation of immense freshness imbues this perfume in which bergamot drifts toward a wave of delights, set against a deep current of mandarin.
+To complement the light within the Cologne Perfumes, Maison Louis Vuitton asked the Californian artist Alex Israel to surround them with creative radiance. He envisioned a joyful design with pop colors that celebrate this summer without end.`,
+    },
+    {
+      id: 'LV-LP0175-PWOMEN-002',
+      slug: 'california-dream-women',
+      name: 'California Dream',
+      category: 'Women Parfume',
+      price: 5_700_000,
+      stock: 5,
+      imageUrl: '/assets/images/louis-vuitton-california-dream-LP0175.jpg',
+      description: `It’s the lengthening of a perfect day. Watching night fall. Drinking in colours. Standing before the horizon. In this iridescent fragrance, the Master Perfumer Jacques Cavallier Belletrud holds onto the moment, captures the resonance of a sunset. The ardent mandarin is consumed by joyfulness, tempered by the diaphanous ambrette and its subtle warmth. And the evening gets underway as graceful, vanilla-tinged benzoin envelops the skin in an affectionate balm, as light as a summer night.`,
+    },
+    {
+      id: 'LV-LP0282-PWOMEN-003',
+      slug: 'city-of-star-women',
+      name: 'City Of Star',
+      category: 'Women Parfume',
+      price: 5_700_000,
+      stock: 50,
+      imageUrl: '/assets/images/louis-vuitton-city-of-star-LP0282.jpg',
+      description: `Master Perfumer Jacques Cavallier Belletrud offers a festive ode to Los Angeles by night, its excitement and extravagance, from star-studded boulevards to the constellations shimmering above the skyline. As darkness falls, the city's lights surge in a sensual olfactory tableau. A citrus quintet dazzles like a thousand flashbulbs: lemon, blood orange, red mandarin, bergamot and lime swirl and dance, gradually succumbing to the Tiaré flower's voluptuous embrace. Warmed by noble sandalwood, a dry down of powdery musk alludes to a passion that disperses only with the morning's first rays. A painterly interpretation of a night in the City of Stars.`,
+    },
+    {
+      id: 'LV-LP0276-PWOMEN-004',
+      slug: 'lv-lovers-women',
+      name: 'Lv Lovers',
+      category: 'Women Parfume',
+      price: 5_700_000,
+      stock: 10,
+      imageUrl: '/assets/images/louis-vuitton-lv-lovers-LP0276.jpg',
+      description: `The scent of the sun is a sensation. Born from a creative dialogue between Pharrell Williams and Jacques Cavallier Belletrud, LV Lovers captures the light which is the essence of the LV Lovers community. Echoing this philosophy of sunlight as a metaphor for love and a source of life, Louis Vuitton Master Perfumer conveys in perfume the scent of the sun illuming the skin. Transcribing the vitalising power of light in Nature, LV Lovers reveals vibrant green notes of galbanum energised by the clean crispness of ginger and grounded in the woody intensity of cedarwood. An elixir of well-being distilled in a bottle refracting light.`,
+    },
+    {
+      id: 'LV-LP0326-PWOMEN-005',
+      slug: 'pacific-chill-women',
+      name: 'Pacific Chill',
+      category: 'Women Parfume',
+      price: 5_700_000,
+      stock: 0,
+      imageUrl: '/assets/images/louis-vuitton-pacific-chill-LP0326.jpg',
+      description: `Evoking the regenerative vigor of the infinite ocean, Pacific Chill translates the pleasure of the warmth of a new day on the skin. An audacious olfactory creation by Master Perfumer Jacques Cavallier Belletrud, this detox-oriented cologne captures nature’s vitality which revives the senses and opens the mind. The vibrant blackcurrant is enhanced by notes of cédrat and lemon, a combination of coriander seeds and ambrette, basil, peppermint and orange, creating an invigorating impact. This serene creation with soft fruity notes soothes the soul, like a desire for the horizon.`,
+    },
+  ];
+}
